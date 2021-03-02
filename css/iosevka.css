@@ -1,0 +1,701 @@
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-thin.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedthin.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedthin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-thinoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-thinoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-thinoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-thinoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedthinoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedthinoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: expanded;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedthinoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedthinoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-thinitalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-thinitalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedthinitalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedthinitalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extralight.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extralight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedextralight.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedextralight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extralightoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extralightoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extralightoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extralightoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedextralightoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedextralightoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: expanded;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedextralightoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedextralightoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extralightitalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extralightitalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedextralightitalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedextralightitalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-light.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedlight.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedlight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-lightoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-lightoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-lightoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-lightoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedlightoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedlightoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: expanded;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedlightoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedlightoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-lightitalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-lightitalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedlightitalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedlightitalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-regular.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extended.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extended.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-oblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-oblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-oblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-oblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: expanded;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-italic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendeditalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendeditalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-medium.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedmedium.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedmedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-mediumoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-mediumoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-mediumoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-mediumoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedmediumoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedmediumoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: expanded;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedmediumoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedmediumoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-mediumitalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-mediumitalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedmediumitalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedmediumitalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-semibold.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedsemibold.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedsemibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-semiboldoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-semiboldoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-semiboldoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-semiboldoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedsemiboldoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedsemiboldoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: expanded;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedsemiboldoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedsemiboldoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-semibolditalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-semibolditalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedsemibolditalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedsemibolditalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-bold.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedbold.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedbold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-boldoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-boldoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-boldoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-boldoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedboldoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedboldoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: expanded;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedboldoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedboldoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-bolditalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-bolditalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedbolditalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedbolditalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extrabold.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extrabold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedextrabold.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedextrabold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extraboldoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extraboldoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extraboldoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extraboldoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedextraboldoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedextraboldoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: expanded;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedextraboldoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedextraboldoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extrabolditalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extrabolditalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedextrabolditalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedextrabolditalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-heavy.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedheavy.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedheavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-heavyoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-heavyoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: normal;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-heavyoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-heavyoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedheavyoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedheavyoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka Oblique";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: expanded;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedheavyoblique.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedheavyoblique.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-heavyitalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-heavyitalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Iosevka";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/woff2/iosevka-extendedheavyitalic.woff2") format("woff2"),
+       url("https://raw.githubusercontent.com/SL-Lee/static-assets/main/fonts/Iosevka/ttf/iosevka-extendedheavyitalic.ttf") format("truetype");
+}
